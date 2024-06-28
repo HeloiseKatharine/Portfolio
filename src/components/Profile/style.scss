@@ -1,0 +1,42 @@
+.DivMainProfile {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-family: Imprima;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(237, 237, 237);
+  }
+}
+
+.DivImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  div {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 697px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #637b90 0%,
+      rgba(85, 108, 169, 0) 93%
+    );
+    filter: blur(2px);
+  }
+
+  img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+  }
+
+}
